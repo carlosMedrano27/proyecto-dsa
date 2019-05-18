@@ -41,5 +41,12 @@ Contributor(s):
 -->
 <hibernate-reverse-engineering>
   <schema-selection match-catalog="proyecto"/>
-  <table-filter match-name="Usr"/>
+  <table-filter match-name="inventory"/>
+  <table-filter match-name="characteristics"/>
+  <table-filter match-name="brands"/>
+  <table-filter match-name="usr"/>
+  <table-filter match-name="products"/>
+  <table-filter match-name="model"/>
+  <table-filter match-name="categories"/>
+  <table-filter match-name="roles"/>
 </hibernate-reverse-engineering>

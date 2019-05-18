@@ -46,6 +46,13 @@ Contributor(s):
     <property name="hibernate.connection.url">jdbc:mysql://dsaujmd.mysql.database.azure.com:3306/proyecto?zeroDateTimeBehavior=convertToNull</property>
     <property name="hibernate.connection.username">ujmd@dsaujmd</property>
     <property name="hibernate.connection.password">dsac012019!!</property>
+    <mapping class="modelo.Entidades.Inventory"/>
+    <mapping class="modelo.Entidades.Categories"/>
     <mapping class="modelo.Entidades.Usr"/>
+    <mapping class="modelo.Entidades.Roles"/>
+    <mapping class="modelo.Entidades.Model"/>
+    <mapping class="modelo.Entidades.Characteristics"/>
+    <mapping class="modelo.Entidades.Brands"/>
+    <mapping class="modelo.Entidades.Products"/>
   </session-factory>
 </hibernate-configuration>

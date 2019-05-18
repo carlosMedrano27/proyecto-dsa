@@ -17,14 +17,13 @@ public class DaoUsuario {
 
     public Usr login(String user, String clave) {
         List<Usr> lst = this.consultar();
-        boolean encontrado = false;
-        int contr = 0;
+        Usr us= new Usr();
         for (Usr usuario : lst) {
         if (usuario.getLogin().equals(user) && usuario.getClave().equals(toMD5(clave))) {
             return usuario;
             }
         }
-        return null;
+        return us;
     }
 
     private String toMD5(String psw) {
